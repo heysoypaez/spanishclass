@@ -1,0 +1,13 @@
+.call-to-action {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.call-to-action img {
+	height: 60px;
+}
+
+.button-more-info {
+	height: 60px;
+}

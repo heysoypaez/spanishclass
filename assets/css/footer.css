@@ -1,0 +1,15 @@
+.footer {
+	display: grid;
+	justify-content: space-around;
+	grid-template-columns: repeat(3,1fr);
+	justify-items: center;
+}
+
+@media screen and (max-width: 425px) {
+	.footer {
+		grid-template-columns: 1fr;
+		justify-content: center;
+		text-align: center;
+	}
+
+}

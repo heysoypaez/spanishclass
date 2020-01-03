@@ -1,0 +1,29 @@
+
+@font-face {
+  font-family: Futura;
+  src: url('../fonts/FuturaStd-Book.otf') format("WOFF");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Futura;
+  src: url('../fonts/FuturaStd-Book.otf') format("WOFF");
+  font-weight: 600;
+}
+
+body {
+	margin: 5px 3vw;
+}
+
+figure {
+	margin: 0;
+}
+
+h1, p, li,a {
+	font-family: Futura, sans-serif;
+}
+
+h2,h3 {
+	letter-spacing: 1.2px;
+	margin: 0;
+		font-family: 'Bebas Neue', cursive;	
+}
