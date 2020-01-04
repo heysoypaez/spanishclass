@@ -11,3 +11,17 @@
 .button-more-info {
 	height: 60px;
 }
+
+.call-to-action a {
+	background: #a91b0d;
+	color: white;
+	font-family: 'Bebas Neue', cursive;	
+	padding: 10px 20px;
+	font-size: 2em;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+.call-to-action a:hover {
+	background: #ff1a04;
+}
