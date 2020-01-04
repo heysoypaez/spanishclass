@@ -2,30 +2,25 @@
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);	
 	grid-gap: 10px;
-	padding: 0 5px;
+	padding: 3% 5px;
 	align-items: center;
 }
 
-.companies-trust-section__item-1__title mark {
-	background-color: #a91b0d;
-	color: white;
-}
-
-
 .companies-trust-section__item-1__title {
 	margin-top: 0;
-	font-size: 70px;
+	font-size: 60px;
 	font-weight: 500;
 	padding-left: 20px;
 	margin-bottom: 0;
 	line-height: 1;
+	margin-bottom: 5%;
+	text-shadow: 5px 5px 0px #a91b0d;
+	color: white;
 }
-
-
 
 @media screen and (min-width: 426px) {
 .companies-trust-section__item-1 {
-	grid-column: 1/5;
+	grid-column: 1/4;
 }
 
 .companies-trust-section__item-2__companies {
@@ -52,11 +47,11 @@
 		line-height: 1;
 	}
 
-.companies-trust-section__item-2__companies {
-	grid-column: 1/7;
-	display: grid;
+	.companies-trust-section__item-2__companies {
+		grid-column: 1/7;
+		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		justify-content: center;
 		justify-items: center;
-}
+	}
 }

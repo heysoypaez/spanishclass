@@ -27,3 +27,18 @@ h2,h3 {
 	margin: 0;
 		font-family: 'Bebas Neue', cursive;	
 }
+
+
+@media screen and (max-width: 425px) { 
+	h1,h2,h3,h4,h5,h6 {
+		text-align: center;
+	}
+	section,figure {
+		justify-content: center;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}

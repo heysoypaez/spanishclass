@@ -1,10 +1,11 @@
 .improve-abilities-section {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);	
+	grid-template-rows: auto;	
 	grid-gap: 10px;
 	background: #4f4f4f;
 	color: white;
-	padding: 0 5px;
+	padding: 3% 0;
 	align-items: center;
 }
 
@@ -23,22 +24,27 @@
 @media screen and (min-width: 426px) {
 
 	.improve-abilities-section {
-		max-height: 200px;
+		max-height: 400px;
 	}
 
 
 	.improve-abilities-section__item-1 {
-	grid-column: 1/4;
+	grid-column: 1/7;
+	justify-self: center;
 	}
 
 	.improve-abilities-section__item-2 {
 		display: block;
-		grid-column: 4/7;
+		grid-column: 1/7;
 	}
 
 	.improve-abilities-section__item-2 ul {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+		justify-content: center;
+		text-align: center;
+
 	}
 }
 
@@ -51,8 +57,15 @@
 		width: 100%;
 	}	
 
+	.improve-abilities-section__item-2 {
+		justify-content: center;
+	}
+
 	.improve-abilities-section__item-2 ul {
 		display: grid;
 		grid-template-columns: 1fr;
+		justify-content: center;
+		text-align: center;
+		padding: 0;
 	}
 }
