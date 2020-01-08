@@ -29,7 +29,7 @@
 @media screen and (min-width: 426px) {
 	.principal-section__item-1 {
 		grid-column: 1/5;
-		background-image: url("../img/smooth-talkers-spanish-classes.jpg");
+		background-image: url("../img/aprende-español.jpg");
 		background-size: cover;
 		background-position: center;	
 		max-width: 100%;
@@ -58,7 +58,7 @@
 		grid-gap: 10px;
 		align-items: end;
 		width: 100%;
-		background-image: url("../img/smooth-talkers-spanish-classes.jpg");
+		background-image: url("../img/aprende-español.jpg");
 		background-size: 100% 50%;
 		max-width: 100%;
 		background-position: top;
