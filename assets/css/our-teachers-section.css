@@ -18,10 +18,7 @@
 
 .our-teachers-section__item-2__title {
 	font-size: 60px;
-	font-weight: 400;
 	line-height: 1.3;
-		text-shadow: 5px 5px 0px #a91b0d;
-	color: white;
 }
 
 @media screen and (min-width: 426px) {

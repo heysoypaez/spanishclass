@@ -1,3 +1,4 @@
+
 .companies-trust-section {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);	
@@ -8,15 +9,12 @@
 
 .companies-trust-section__item-1__title {
 	margin-top: 0;
-	font-size: 60px;
-	font-weight: 500;
-	padding-left: 20px;
-	margin-bottom: 0;
-	line-height: 1;
 	margin-bottom: 5%;
-	text-shadow: 5px 5px 0px #a91b0d;
-	color: white;
+	padding-left: 20px;
+	font-size: 60px;
+	line-height: 1;
 }
+
 
 @media screen and (min-width: 426px) {
 .companies-trust-section__item-1 {
