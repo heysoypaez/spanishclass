@@ -31,7 +31,7 @@
 @media screen and (min-width: 426px) {
 	.principal-section__item-1 {
 		grid-column: 1/5;
-		background-image: url("../img/");
+		background-image: url("../img/aprende-español.jpg");
 		background-size: cover;
 		background-position: center;	
 		max-width: 100%;
