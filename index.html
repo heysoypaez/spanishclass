@@ -16,6 +16,20 @@
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
 	</script>
+	<script>
+	function gtag_report_conversion(url) {
+	  var callback = function () {
+	    if (typeof(url) != 'undefined') {
+	      window.location = url;
+	    }
+	  };
+	  gtag('event', 'conversion', {
+	      'send_to': 'AW-1014697950/nWywCPPZ98IBEN6f7OMD',
+	      'event_callback': callback
+	  });
+	  return false;
+	}
+	</script>
 	</head>
 <body>
 	
@@ -237,7 +251,7 @@
 
 	<section class="whatsapp-button">
 		<figure class="whatsapp-button__container">
-			<a href="https://wa.me/56987572595" target="_blank">
+			<a href="https://wa.me/56987572595" target="_blank" onclick="gtag_report_conversion()"> 
 				<img src="assets/img/whatsapp-logo-1.png" alt="botón de Whatsapp" width="80" class="whatsapp-button__image">
 			</a>
 		</figure>
